@@ -13,12 +13,7 @@ def assembled_aoh
 end
 
 def literal_aoh
-  don = [DON_G[:name], DON_G[:occupation]]
-  joe = [JOELLE_VD[:name], JOELLE_VD[:occupation]]
-  pat = [PAT_M[:name], PAT_M[:occupation]]
-  kate = [KATE_G[:name], KATE_G[:occupation]]
-  bruce = [BRUCE_G[:name], BRUCE_G[:occupation]]
-  arr = [don, joe, pat, kate, bruce]
+  arr = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
 end
